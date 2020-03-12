@@ -7,8 +7,21 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+#app{
+    position: relative;
+    height: 1500px;
+}
+
 #sticky-footer{
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 0px;
     width: 100%;
+}
+.masthead {
+    height: 100vh;
+    max-height: 100px;
+    background-image: url('http://utt.edu.vn/uploads/images/site/1461517779logo.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }

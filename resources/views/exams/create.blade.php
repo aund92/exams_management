@@ -2,11 +2,9 @@
 
 @section('content')
     <style>
-        .uper {
-            margin-top: 40px;
-        }
+
     </style>
-    <div class="container">
+    <div class="container" style="height: 800px">
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
@@ -42,7 +40,7 @@
                             <div class="form-group">
                                 <div class="row">
                                     <label for="name" class="col-lg-2">{{ __('Tên Môn Học') }}</label>
-                                    <select class="form-control">
+                                    <select class="form-control col-lg-4">
                                         <option value="1">Đáp Án A</option>
                                         <option value="2">Đáp Án B</option>
                                         <option value="3">Đáp Án C</option>
@@ -50,7 +48,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="container overflow-auto border border-dark rounded" style="max-height: 400px;overflow-x: auto; background-color: ">
+                            <div class="container overflow-auto border border-dark rounded" style="max-height: 600px;overflow-x: auto; background-color: ">
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">
                                         <!-- Default checked -->
